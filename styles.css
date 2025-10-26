@@ -175,3 +175,67 @@ ul.projects .project_description {
     height: 30px;
     width: 30px;
 }
+footer {
+    display: flex;
+    background: linear-gradient(78deg, #029452a9, #8000ff8a, #0065a4b9);
+    flex-wrap: wrap;
+    padding: 4em 0;
+}
+
+footer > section.contacts {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.5rem;
+    padding-left: 3em;
+}
+footer > section.contacts > div.contact_info {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    color: #fff;
+}
+footer > section.contacts > div.contact_info  p,
+footer > section.contacts > div.contact_info  a {
+    width: 30ch;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+footer .contact_info div {
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+}
+footer .contact_info div > svg {
+    width: 30px;
+    height: 30px;
+    /* stroke: #fff; */
+    fill: #fff;
+}
+footer div.contact_info+div {
+    display: flex;
+}
+footer .footer_socials {
+    display: flex;
+    gap: 1em;
+    justify-self: flex-start;
+}
+
+footer .footer_socials > li {
+    font-size: 2.5rem;
+}
+footer > section.contact_picture {
+    flex: 1;
+}
+footer picture {
+    display: block;
+    width: 90%;
+    height: 100dvh;
+}
+
+footer picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
