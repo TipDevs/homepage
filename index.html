@@ -12,6 +12,47 @@
 </head>
 <body>
     <main>
+        <section class="hero_section">
+            <div class="hero_content">
+                <div class="hero_image_and_title">
+                    <picture>
+                        <source type="image/webp"
+                        srcset="assets/image/hero/hero_img480.webp 480w, assets/image/hero/hero_img800.webp 800w, assets/image/hero/hero_img1200.webp 1200w"
+                        sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px">
+                        <!-- render image in jpg format for older browser support -->
+                        <img src="./assets/image/hero/hero_img800.jpg"
+                        srcset="assets/image/hero/hero_img480.jpg 480w, assets/image/hero/hero_img800.jpg 800w, assets/image/hero/hero_img1200.jpg 1200w"
+                        alt="Profile picture of Habeeb Abdullahi, a cartoon illustration.">
+                    </picture>
+                    <p class="title">Habeeb Abdullahi</p>
+                </div>
+                <div class="hero_text">
+                    <h1>About Me</h1>
+                    <p class="about_description">I'm a highly motivated aspiring Full-Stack JavaScript Developer committed to turning innovative ideas into functional web experiences.
+
+I specialize in clean front-end development (JavaScript, HTML, CSS), professional tooling (Webpack, Git), and Test-Driven Development (TDD). My current focus is mastering React, Node.js, Express, and MongoDB to complete my full-stack skillset.
+
+Beyond coding, I founded TipDevs to foster collaboration and growth within the tech community. Open to connecting with mentors and collaborators!</p>
+                    <ul class="hero_socials">
+                        <li>
+                            <a href="https://github.com/TipDevs">
+                                <i class="devicon-github-original colored"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/tipdevs">
+                                <i class="devicon-linkedin-plain colored"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/TipDevsMe">
+                                <i class="devicon-twitter-original colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
     </footer>
