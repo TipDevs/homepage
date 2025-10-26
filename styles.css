@@ -268,4 +268,27 @@ footer picture img {
         width: 100%;
         justify-content: center;
     }
+    footer {
+        flex-direction: column;
+        padding: 0;
+    }
+    footer > section.contacts {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+    }
+    footer > section.contacts > div.contact_info {
+        width: 100%;
+        align-items: center;
+    }
+    footer > section.contacts > div.contact_info p,
+    footer > section.contacts > div.contact_info a {
+        font-size: 1.16rem;
+    }
+    footer > section.contact_picture {
+        width: 100%;
+    }
+    footer picture {
+        width: 100%;
+    }
 }
