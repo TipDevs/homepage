@@ -239,3 +239,33 @@ footer picture img {
     height: 100%;
     object-fit: cover;
 }
+@media(max-width: 1000px) {
+    .hero_content {
+        flex-direction: column;
+    }
+    .hero_image_and_title {
+        width: 100%;
+    }
+    .hero_image_and_title p.title {
+        bottom: 1%;
+        font-size: 5rem;
+    }
+}
+@media(max-width: 600px) {
+    .hero_image_and_title {
+        width: 90%;
+        flex: 0.5;
+    }
+    .hero_text {
+        box-shadow: none;
+        /* align-items: center; */
+        width: 100%;
+    }
+    .hero_image_and_title p.title {
+        font-size: 3.5em;
+    }
+    ul.hero_socials {
+        width: 100%;
+        justify-content: center;
+    }
+}
