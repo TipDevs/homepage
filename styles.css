@@ -188,7 +188,7 @@ footer > section.contacts {
     flex-direction: column;
     gap: 1em;
     font-size: 1.5rem;
-    padding-left: 3em;
+    padding: 2em;
 }
 footer > section.contacts > div.contact_info {
     display: flex;
@@ -227,11 +227,11 @@ footer .footer_socials > li {
 }
 footer > section.contact_picture {
     flex: 1;
+    padding: 2em;
 }
 footer picture {
     display: block;
-    width: 90%;
-    height: 100dvh;
+    width: 100%;
 }
 
 footer picture img {
@@ -287,6 +287,7 @@ footer picture img {
     }
     footer > section.contact_picture {
         width: 100%;
+        padding: 0;
     }
     footer picture {
         width: 100%;
