@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles.css">
     <title>homepage</title>
 </head>
-<body>
+<body style="visibility: hidden;">
     <main>
         <section class="hero_section">
             <div class="hero_content">
@@ -213,5 +213,10 @@ Beyond coding, I founded TipDevs to foster collaboration and growth within the t
             </picture>
         </section>  
     </footer>
+    <script>
+        window.addEventListener("load", () => {
+            document.body.style.visibility = "visible";
+        })
+    </script>
 </body>
 </html>
