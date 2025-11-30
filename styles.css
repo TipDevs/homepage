@@ -167,6 +167,7 @@ ul.projects li {
   flex-direction: column;
   z-index: 2;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  list-style: none;
 }
 ul.projects li:hover {
   transform: translateY(-6px) scale(1.03);
@@ -257,6 +258,7 @@ footer .footer_socials {
 }
 footer .footer_socials > li {
   font-size: 2.5rem;
+  list-style: none;
 }
 footer > section.contact_picture {
   flex: 1;
